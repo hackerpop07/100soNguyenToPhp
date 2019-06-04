@@ -1,7 +1,7 @@
 <?php
 $number = $_POST["input"];
 $count = 1;
-for ($i = 1; ; $i++) {
+for ($i = 2; ; $i++) {
     $flap = true;
     for ($j = 2; $j < $i; $j++) {
         if ($i % $j == 0) {

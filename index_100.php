@@ -1,5 +1,5 @@
 <?php
-for ($i = 1; $i < 100; $i++) {
+for ($i = 2; $i < 100; $i++) {
     $flap = true;
     for ($j = 2; $j < $i; $j++) {
         if ($i % $j == 0) {
